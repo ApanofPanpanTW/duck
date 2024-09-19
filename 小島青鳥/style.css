@@ -1,3 +1,11 @@
+.news {
+    background-color: antiquewhite;
+    color:white;
+    height:85vh;
+    background-image: url("https://github.com/ApanofPanpanTW/duck/blob/main/%E5%B0%8F%E5%B3%B6%E9%9D%92%E9%B3%A5/%E5%9C%96%E7%89%87/3.jpg?raw=true");
+    background-repeat: no-repeat;
+    background-size: center;
+}
 *{
     padding: 0;
     margin: 0;
@@ -10,11 +18,4 @@ header, section, footer {
     background-size: ; /* 可選：使圖片覆蓋整個元素 */
     background-position: center; /* 可選：將圖片居中 */
 }
-.news {
-    background-color: antiquewhite;
-    color:white;
-    height:85vh;
-    background-image: url("https://github.com/ApanofPanpanTW/duck/blob/main/%E5%B0%8F%E5%B3%B6%E9%9D%92%E9%B3%A5/%E5%9C%96%E7%89%87/3.jpg?raw=true");
-    background-repeat: no-repeat;
-    background-size: center;
-}
+
