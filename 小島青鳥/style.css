@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header, section, footer {
+    background-color: #d6ccc2;
+}
+.element {
+    background-image: url(""C:\Users\panje\OneDrive\桌面\小島青鳥\圖片\14.jpg")
+    background-size: ; /* 可選：使圖片覆蓋整個元素 */
+    background-position: center; /* 可選：將圖片居中 */
+}
