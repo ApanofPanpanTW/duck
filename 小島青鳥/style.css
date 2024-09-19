@@ -1,48 +1,29 @@
-.text-1 {
-    font-size: 15px;
-
-    /* 內部顏色 */
-    color: white;
-
-    /* 外部黑色陰影 */
-    text-shadow:
-        -1px -1px 0 black,
-        1px -1px 0 black,
-        -1px 1px 0 black,
-        1px 1px 0 black;
+.nav-text,
+.main-text,
+.footer-text {
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; /* 外部黑色陰影 */
+    color: white; /* 內部顏色 */
 }
 
-.text-2 {
+.nav-text * {
+    font-size: 15px;
+}
+
+.main-text * {
     font-size: 25px;
-
-    /* 內部顏色 */
-    color: white;
-
-    /* 外部黑色陰影 */
-    text-shadow:
-        -1px -1px 0 black,
-        1px -1px 0 black,
-        -1px 1px 0 black,
-        1px 1px 0 black;
 }
 
-.text-3 {
+.footer-text * {
     font-size: 15px;
+}
 
-    /* 內部顏色 */
-    color: white;
-
-    /* 外部黑色陰影 */
-    text-shadow:
-        -1px -1px 0 black,
-        1px -1px 0 black,
-        -1px 1px 0 black,
-        1px 1px 0 black;
+.menu img {
+    width: 400px;
 }
 
 body {
     text-align: center;
-    background-image: "./img/1.jpg";
+    background-image: url("./img/3.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
