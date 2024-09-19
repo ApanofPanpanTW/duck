@@ -1,14 +1,50 @@
-    </style>
-*{
-    padding: 0;
-    margin: 0;
-}
-header, section, footer {
-    background-color: #d6ccc2;
-}
-.element {
-    background-image: url(""C:\Users\panje\OneDrive\桌面\小島青鳥\圖片\14.jpg")
-    background-size: ; /* 可選：使圖片覆蓋整個元素 */
-    background-position: center; /* 可選：將圖片居中 */
+.text-1 {
+    font-size: 15px;
+
+    /* 內部顏色 */
+    color: white;
+
+    /* 外部黑色陰影 */
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
 }
 
+.text-2 {
+    font-size: 25px;
+
+    /* 內部顏色 */
+    color: white;
+
+    /* 外部黑色陰影 */
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+.text-3 {
+    font-size: 15px;
+
+    /* 內部顏色 */
+    color: white;
+
+    /* 外部黑色陰影 */
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+}
+
+body {
+    text-align: center;
+    background-image: "./img/1.jpg";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
