@@ -1,5 +1,41 @@
-
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- 侧边栏 -->
+    <div class="sidebar">
+        <h2>Admin Panel</h2>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Users</a></li>
+            <li><a href="#">View Count</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </div>
+
+    <!-- 主面板 -->
+    <div class="main-content">
+        <h1>Dashboard</h1>
+        <div class="card">
+            <h3>Total Views</h3>
+            <p id="viewCount">0</p> <!-- 用于展示观看人数 -->
+        </div>
+    </div>
+
+    <script>
+        // 模拟获取观看人数（你可以从服务器获取实际数据）
+        let viewCount = 54321;  // 假设从后端获取的观看人数
+        document.getElementById('viewCount').innerText = viewCount;
+    </script>
+
+</body>
+</html>
 <html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
