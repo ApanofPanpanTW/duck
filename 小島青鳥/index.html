@@ -1,5 +1,31 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viewer Count</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="card">
+            <h3>Total Views</h3>
+            <p id="viewCount">0</p> <!-- 用于显示观看人数 -->
+        </div>
+    </div>
+
+    <script>
+        // 使用 JavaScript 动态显示观看人数（假设从服务器获取数据）
+        fetch('/api/getViewCount')  // 与后端API交互获取观看人数
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('viewCount').innerText = data.count;
+            })
+            .catch(error => console.error('Error fetching viewer count:', error));
+    </script>
+</body>
+</html>
 <html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
